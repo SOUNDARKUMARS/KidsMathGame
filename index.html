@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH Game</title>
+    <link rel="icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <audio id="wrong" src="wrong.mp3"></audio>
+    <audio id="correct" src="correct.wav"></audio>
+
+    <div class="header">
+        <h1 style="color: rgb(225, 232, 225);">score: <span id="score">0</span></h1>
+        <h1>Time Left: <span id="timeLeft">0s</span></h1>
+        <div class="inps">
+            <input type="button" id="start" value="Dare To Start !">
+            <input type="button" id="end" value="NO I Can't !">
+        </div>
+
+        
+    </div>
+    <input type="button" id="skip" value="skip">
+    <div class="conatiner">
+            <div class="question">
+                <h1 class="eqn" style="cursor: pointer;"><span id="num1">10</span>  <span id="symbol" >+</span>      <span id="num2">20</span></h1>
+            </div>
+            <div class="options">
+                <div id="optOne" class="option1"><h2  style="cursor: pointer;" >10</h2></div>
+                <div id="optTwo" class="option2"><h2 style="cursor: pointer;" >11</h2></div>
+                <div  id="optThree" class="option3"><h2 style="cursor: pointer;">12</h2></div>
+                <div id="optFour" class="option4"><h2 style="cursor: pointer;" >13</h2></div>
+            </div>
+    </div>
+
+    <script src="app2.js"></script>
+</body>
+</html>
